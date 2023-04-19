@@ -1,0 +1,18 @@
+.album-card {
+  color: var(--white);
+  margin: 0 auto;
+  max-width: 275px;
+  text-align: center;
+}
+
+.album-card h4 {
+  font-size: 16px;
+}
+
+.album-card span {
+  font-size: 12px;
+}
+
+.album-card:hover ~ .album-card img {
+  width: 150%;
+}

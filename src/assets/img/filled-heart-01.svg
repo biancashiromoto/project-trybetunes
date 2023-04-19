@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>fi-sr-heart-svg</title>
+	<defs>
+		<image  width="24" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAVCAMAAABrN94UAAAAAXNSR0IB2cksfwAAADZQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt3ZocgAAABJ0Uk5TAECf/6+Qj6CAIODfwBDwULDQTP3/6wAAAHxJREFUeJx1kFEWwiAMBKdNMVSh2PtfVioK1aTztew+yBKAaRaRZeKQS5XzW0KQxg10SIjyJYYhYRWXtd/+Q7n7wQPfF7kOku8ngh/E67p+X60/z5v1t3zspNigtC2axwIfnnZAI+9nf8+4ydmvSZ+jP/5ooBhK3Voq/fgCVPkGHUVchkkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="2"/>
+</svg>

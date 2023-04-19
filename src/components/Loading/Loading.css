@@ -1,0 +1,17 @@
+.loading-container {
+  background-color: rgba(48, 203, 198, 0.61);
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.loading-container::before {
+  content: url('../../assets/img/loading.gif');
+}
+
+

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>fi-br-heart-svg</title>
+	<defs>
+		<image  width="24" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAMAAADto6y6AAAAAXNSR0IB2cksfwAAAEtQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////slWHAAAAABl0Uk5TACAQMJ/v/99/cG+/kM9QT+DQLx/AgF8/sMIZRhYAAADHSURBVHicXZFZAsMgCESJxlG7pbbpcv+TdlCiSflxeCOIKlJjcmLhJunh5wDERM+lCITZN57RInofTZ46ryTGLjO7czmzbw4KgpIzxSQX4Fo73tRYqrwCF7lvmaZtiyxsKNxmwyUgmVQ4jJNNY0YBHpbmbOIBFD18lr+Y9XDPsueRP4l4+ZX3OBq8x6ovhTHNNh3qa70o3oO/mb6aZDN89vxr2pVRo7yMz+nOkfNBS5tAzy27L7SaGvv91VkbX/84I7Oo5J7+AIefB/N8/LBEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="1"/>
+</svg>

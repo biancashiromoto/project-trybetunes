@@ -1,0 +1,39 @@
+input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.search-container form {
+  padding-left: 17.5px;
+}
+
+.search-btn {
+  border-radius: 50%;
+  height: 40px;
+  margin: 10px;
+  position: relative;
+  transition: 400ms;
+  width: 40px;
+}
+
+.search-btn::before {
+  content: url('../../assets/img/search-btn.svg');
+  position: absolute;
+  top: -12.5px;
+  left: -12.5px;
+}
+
+.search-btn:enabled:hover {
+  transform: rotate(360deg);
+}
+
+.search-btn span {
+  display: none;
+}
+
+.search-result {
+  color: var(--white);
+  padding: 20px;
+}

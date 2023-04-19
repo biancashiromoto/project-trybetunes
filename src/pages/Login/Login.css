@@ -1,0 +1,12 @@
+.login-form  {
+  flex-direction: column;
+}
+
+.login-btn {
+  border: none;
+  border-radius: 25px;
+  color: #1a1a1a;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: 500ms;
+}

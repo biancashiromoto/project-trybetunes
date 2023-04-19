@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Slabo+27px&display=swap');
+
+:root {
+  --body-background-color: rgb(83, 83, 83);
+  --header-background-color: rgb(38, 122, 124);
+  --music-card-background-color: rgba(184, 187, 187, .40);
+
+  --enabled-btn: #69e469;
+  --disabled-btn: #d35643;
+  --white: #d2d2d2;
+
+  --bebas-neue: 'Bebas Neue', cursive;
+  --questrial: 'Questrial', sans-serif;
+  --slabo: 'Slabo 27px', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rgba(102, 126, 146, 0.685);
+  background-color: var(--body-background-color);
+  background: url('./assets/img/background-body.png') repeat;
+}
+
+.main-container {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.list-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 15px;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+
+button:disabled {
+  background-color: var(--disabled-btn);
+  color: #d2d2d2a3;
+}
+
+button {
+  background-color: var(--enabled-btn);
+  border: none;
+  cursor: pointer;
+  font: 800 14px var(--questrial);
+}
+
+
+::placeholder {
+  color: #a9a9a9;
+  font-family: var(--questrial);
+}
+
+.main-container h2 {
+  padding-bottom: 10px;
+  color: var(--white);
 }

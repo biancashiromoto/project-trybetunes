@@ -72,3 +72,7 @@ button {
   color: var(--white);
   font: 400 32px var(--bebas-neue);
 }
+
+a {
+  text-decoration: none;
+}

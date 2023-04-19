@@ -1,8 +1,18 @@
 .album-card {
+  background-color: var(--music-card-background-color);
+  border-radius: 15px;
   color: var(--white);
   margin: 0 auto;
-  max-width: 275px;
+  max-width: 300px;
+  padding: 10px;
   text-align: center;
+  transition: 300ms;
+  width: 275px;
+}
+
+.album-card:hover {
+  margin: 10px;
+  transform: scale(1.15);
 }
 
 .album-card h4 {
@@ -13,6 +23,6 @@
   font-size: 12px;
 }
 
-.album-card:hover ~ .album-card img {
-  width: 150%;
+.album-card img {
+  padding: 5px;
 }

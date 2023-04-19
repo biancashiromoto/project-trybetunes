@@ -22,6 +22,7 @@
 body {
   background-color: var(--body-background-color);
   background: url('./assets/img/background-body.png') repeat;
+  user-select: none;
 }
 
 .main-container {

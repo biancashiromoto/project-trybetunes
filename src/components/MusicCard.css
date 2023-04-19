@@ -1,0 +1,15 @@
+.music-card {
+  background-color: rgba(0, 255, 255, 0.267);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  width: 75%;
+}
+
+.music-card label {
+  margin-top: 20px;
+}
+
+.music-card audio {
+  width: 100%;
+}

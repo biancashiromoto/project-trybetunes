@@ -1,0 +1,35 @@
+header {
+  color: aliceblue;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.links-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.link {
+  color: aliceblue;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.username {
+  position: relative;
+  top: 60px;
+}

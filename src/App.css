@@ -5,8 +5,8 @@
   --header-background-color: rgb(38, 122, 124);
   --music-card-background-color: rgba(184, 187, 187, .40);
 
-  --enabled-btn: #69e469;
-  --disabled-btn: #d35643;
+  --enabled-btn: #1b861b;
+  --disabled-btn: #d33e28;
   --white: #d2d2d2;
 
   --bebas-neue: 'Bebas Neue', cursive;
@@ -27,7 +27,7 @@ body {
 .main-container {
   text-align: center;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .list-container {
@@ -50,12 +50,12 @@ form {
 
 button:disabled {
   background-color: var(--disabled-btn);
-  color: #d2d2d2a3;
 }
 
 button {
   background-color: var(--enabled-btn);
   border: none;
+  color: var(--white);
   cursor: pointer;
   font: 800 14px var(--questrial);
 }
@@ -69,4 +69,5 @@ button {
 .main-container h2 {
   padding-bottom: 10px;
   color: var(--white);
+  font: 400 32px var(--bebas-neue);
 }

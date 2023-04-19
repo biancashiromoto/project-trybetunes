@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="32" height="32">
+	<title>profile-svg</title>
+	<style>
+		.s0 { opacity: .4;fill: #292d32 } 
+		.s1 { fill: #292d32 } 
+	</style>
+	<g id="SVGRepo_bgCarrier">
+	</g>
+	<g id="SVGRepo_tracerCarrier">
+	</g>
+	<g id="SVGRepo_iconCarrier">
+		<path id="Layer" class="s0" d="m20 30c5.5 0 10-4.5 10-10 0-5.5-4.5-10-10-10-5.5 0-10 4.5-10 10 0 5.5 4.5 10 10 10z"/>
+		<path id="Layer" class="s1" d="m20 14.9c-2.1 0-3.8 1.7-3.8 3.8 0 2 1.6 3.7 3.7 3.7q0.1 0 0.1 0 0.1 0 0.1 0 0 0 0 0c2 0 3.6-1.7 3.6-3.7 0-2.1-1.6-3.8-3.7-3.8z"/>
+		<path id="Layer" class="s1" d="m26.8 27.4c-1.8 1.6-4.2 2.6-6.8 2.6-2.6 0-5-1-6.8-2.6 0.3-0.9 0.9-1.8 1.9-2.4 2.7-1.8 7.1-1.8 9.8 0 1 0.6 1.6 1.5 1.9 2.4z"/>
+	</g>
+</svg>

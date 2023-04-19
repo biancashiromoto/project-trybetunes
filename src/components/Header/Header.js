@@ -18,11 +18,10 @@ class Header extends Component {
             'Hello!'
           ) : (
             (
-              `Hello, 
-              ${user.name
+              (user.name
                 .charAt(0)
                 .toUpperCase() + user.name
-                .slice(1)}!`
+                .slice(1))
             )
           )),
         isLoading: false,
@@ -36,6 +35,7 @@ class Header extends Component {
     return (
       <header
         data-testid="header-component"
+        className="header-container"
       >
         <div className="links-container">
           <Link
@@ -52,15 +52,8 @@ class Header extends Component {
           >
             Favorites
           </Link>
-          <Link
-            data-testid="link-to-profile"
-            to="/profile"
-            className="profile link"
-          >
-            Profile
-
-          </Link>
         </div>
+        <h1>TrybeTunes</h1>
         <span
           data-testid="header-user-name"
           className="header-username"

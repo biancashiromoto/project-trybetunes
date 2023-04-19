@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Questrial&family=Slabo+27px&display=swap');
+
 header {
   color: var(--white);
   text-align: center;
   background-color: var(--header-background-color);
-  padding-bottom: 20px;
   position: fixed;
   width: 100vw;
   z-index: 2;
@@ -14,11 +15,22 @@ header {
   justify-content: space-between;
 }
 
+.header-container h1 {
+  display: none;
+  position: relative;
+  transform: translateX(-15%);
+}
+
+.header-container::before {
+  content: url('../../assets/img/logo.svg');
+  display: none;
+  position: absolute;
+  left: 37%;
+}
+
 .links-container {
   display: flex;
-  justify-content: space-between;
-  width: 75%;
-  margin: 5px auto;
+  gap: 10px;
 }
 
 .link:hover {
@@ -26,30 +38,32 @@ header {
 }
 
 .link {
-  border-radius: 10px;
+  align-items: center;
   color: var(--white);
   display: flex;
-  flex-direction: column;
-  font-size: 12px;
+  font: 600 10px var(--slabo);
   justify-content: center;
-  margin-bottom: 15px;
-  padding: 5px;
+  padding: 5px 10px;
   text-decoration: none;
   transition: 200ms;
 }
 
 .header-username {
-  font-size: 16px;
+  align-items: center;
+  display: flex;
+  font: 600 12px var(--slabo);
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.header-username::before {
+  content: url('../../assets/img/profile-svg.svg');
 }
 
 .search::before {
-  content: url('../../assets/img/search.svg')
+  content: url('../../assets/img/search-svg.svg')
 }
 
 .favorites::before {
-  content: url('../../assets/img/fav-list.svg')
-}
-
-.profile::before {
-  content: url('../../assets/img/profile.svg');
+  content: url('../../assets/img/fav-list-svg.svg')
 }

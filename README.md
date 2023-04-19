@@ -891,3 +891,11 @@ Crie o formulário de edição de perfil dentro do componente <code>ProfileEdit<
 </details>
 
 ---
+
+
+
+Favicon: https://icons8.com/icon/fkublXWgFJVh/musical;
+
+Icons (Search, Favorite, Profile and Seach button):https://www.svgrepo.com/collection/iconsax-duotone-filled-icons/;
+
+Background image: https://www.freepik.com/free-vector/music-pattern-background_1194152.htm#query=website%20background%20pattern%20music&position=8&from_view=search&track=ais (edited by me)

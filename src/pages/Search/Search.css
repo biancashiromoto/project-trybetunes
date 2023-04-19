@@ -26,7 +26,7 @@ input {
 }
 
 .search-btn:enabled:hover {
-  transform: rotate(360deg);
+  transform:scale(1.125);
 }
 
 .search-btn span {

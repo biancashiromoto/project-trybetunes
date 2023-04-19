@@ -10,3 +10,7 @@
   padding: 10px 20px;
   transition: 500ms;
 }
+
+.login-btn:enabled:hover {
+  transform:scale(1.125);
+}
